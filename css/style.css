@@ -35,34 +35,6 @@ body {
 	z-index: 1000;
 }
 
-.header_name{
-	z-index: -1;
-	
-	width: 1000px;
-	color: #000;
-	text-align: center;
-	background-image: linear-gradient(to bottom, rgba(192, 192, 192, 0.4), rgba(192, 192, 192, 0.4));
-	border: 2px solid #000;
-}
-
-.Space_Man_left{
-	z-index: 0;
-	width: 115px;
-	height: 115px;
-	border-radius: 100px;
-	border: 2px solid #000;
-	margin-right: -6px;
-}
-
-.Space_Man_right{
-	width: 115px;
-	height: 115px;
-	border-radius: 100px;
-	transform: scale(-1, 1);
-	border: 2px solid #000;
-	margin-left: -6px;
-}
-
 .phone{
 	padding-top: 2px; 
 	width: 20px;
@@ -76,19 +48,26 @@ body {
 	font-size: 30px;
 	align-items: center;
 }
-
+.href{
+	background-color: #4B6361;
+	margin-left: 20px; 
+	font-family: 'Oswald';
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 15px;
+	border-radius: 15px;
+	text-decoration: none;
+}
+.href:hover{
+	box-shadow: 0 0 8px rgba(0,0,0,0.3); /* Тінь */
+	color: #e6e6e6;
+}
 /* INTRO 
 ===============*/
 
 .intro{
 	
-	height: 650px;
-	padding-right: 90px;
-	padding-top: 80px;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
+	height: 625px;
 	display: flex;
 	justify-content: center;
 	background: #ADD8E6 
@@ -96,10 +75,10 @@ body {
 }
 
 .information{
-	margin: 40px 0 0 90px;
+	margin-top: 40px;
+	align-items: center;
 	padding: 20px;
-	width: 900px;
-	height: 480px;
+	height: 510px;
 	background-image: linear-gradient(to bottom, rgba(220, 220, 220, 0.99), rgba(192, 192, 192, 0.99));
 	border: 1px solid #000;
 	border-radius: 5px;
@@ -134,7 +113,6 @@ body {
 }
 
 .name_work{
-	padding-top: 3px;
 	font-size: 20px;
 	text-align: center;
 }
@@ -157,8 +135,9 @@ body {
 }
 
 .text__logo{
-	padding-left: 175px;
-	width: 600px;
+	margin-left: 50px;
+	margin-right: 50px;
+	align-items: center;
 }
 
 .info_about_me{
@@ -365,7 +344,6 @@ body {
 }
 
 .organ_cours{
-	padding-top: 20px;
 	font-family: 'Oswald';
 	font-size: 22px;
 	padding-top: 3px;
