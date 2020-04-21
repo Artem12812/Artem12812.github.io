@@ -3,9 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(#251e1f, #443936);;
-}
 .container{
     display: flex;
     justify-content:center;
