@@ -1,5 +1,6 @@
 body{
 	background: #ADD8E6;
+	margin-top: 20px;
 }
 li{
 	list-style: none;
@@ -14,9 +15,9 @@ img{
 }
 
 .info>ul{
-	margin: 50px;
+	margin: 15px;
 	display: grid;
     grid-template-columns: repeat(auto-fit,minmax(320px,300px));
-    grid-gap: 25px;
-    margin-left: 5%;
+    grid-gap: 20px;
+    margin-left: 10px;
 }
