@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>Sprait</title>
+</head>
+<body>
+
+		<a href="https://www.instagram.com/?hl=uk" class="instagram"></a>
+		<a href="https://uk-ua.facebook.com/" class="facebook"></a>
+	<style>
+		.instagram{
+			width: 144px;
+			height: 144px;
+			position: absolute;
+			top: 95px;
+			right: 0;
+			background:url(../img/css_sprites.png);
+			background-position: 0px 0px;
+			transition: all 150ms ease;
+		}
+		.facebook{
+			width: 144px;
+			height: 144px;
+			position: absolute;
+			top: 254px;
+			right: 0;
+			background:url(../img/css_sprites.png);
+			background-position: -165px;
+			transition: all 150ms ease;
+		}
+		.instagram:hover {
+			background-position: -1px 10px;
+		}
+		.facebook:hover {
+			background-position: -165px 4px;
+		}
+	</style>
+</body>
+</html>	
